@@ -9,6 +9,8 @@
 extern crate libc;
 #[macro_use]
 extern crate log;
+#[macro_use]
+extern crate enum_primitive;
 
 #[link(name = "OpenCL", kind = "framework")]
 #[cfg(target_os = "macos")]
