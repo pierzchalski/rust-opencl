@@ -259,7 +259,7 @@ pub const CL_CONTEXT_PROPERTIES:                        cl_uint = 0x1082;
 pub const CL_CONTEXT_NUM_DEVICES:                       cl_uint = 0x1083;
 
 /* cl_context_info + cl_context_properties */
-pub const CL_CONTEXT_PLATFORM:                          libc::intptr_t = 0x1084;
+pub const CL_CONTEXT_PLATFORM:                          cl_context_properties = 0x1084;
 
 /* cl_command_queue_info */
 pub const CL_QUEUE_CONTEXT:                             cl_uint = 0x1090;
